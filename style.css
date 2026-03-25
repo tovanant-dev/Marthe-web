@@ -683,19 +683,3 @@
   line-height: normal;
   white-space: nowrap;
 }
-
-body {
-    margin: 0;
-    overflow-x: hidden;
-}
-
-.home {
-    width: 1920px !important;
-    transform-origin: top left !important;
-}
-
-@media screen and (max-width: 1920px) {
-    .home {
-        transform: scale(calc(100vw / 1920)) !important;
-    }
-}
